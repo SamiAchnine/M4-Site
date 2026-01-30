@@ -11,6 +11,10 @@
  */
 
 
+// setup the form when the page loads
+window.addEventListener("load", setupForm);
+
+
 // set the default form values
 function setupForm() {
     document.getElementById("photoNum").value = 1;
