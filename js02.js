@@ -11,6 +11,12 @@
  */
 
 
+// declare global variable constants for the application
+const EMP_COST = 100;     // cost of photographers per hour
+const BOOK_COST = 350;    // cost of memory book
+const REPRO_COST = 1250;  // cost of reproduction rights
+const TRAVEL_COST = 2;    // cost of travel per mile
+
 // setup the form when the page loads
 window.addEventListener("load", setupForm);
 
