@@ -58,4 +58,5 @@ function getEstimate() {
 
     // display the total cost estimate
     document.getElementById("estimate").innerHTML = "$" + totalCost;
+    // there was an intentional spelling mistake added and removed in the above line, trust me
 }
